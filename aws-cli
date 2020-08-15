@@ -1,0 +1,12 @@
+### ALTER INSTANCE
+
+aws ec2 stop-instances --instance-ids IDX
+aws ec2 modify-instance-attribute --instance-id IDX --instance-type t3.medium
+aws ec2 start-instances --instance-ids IDX
+
+
+### UPLOAD S3
+
+aws s3 ls
+
+aws s3 cp testfile s3://X

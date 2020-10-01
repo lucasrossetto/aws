@@ -12,3 +12,8 @@ aws ec2 start-instances --instance-ids IDX
 aws s3 ls
 
 aws s3 cp testfile s3://X
+
+### DOWNLOAD S3
+
+
+aws s3 cp s3://url_aws DIR_LOCAL --recursive
